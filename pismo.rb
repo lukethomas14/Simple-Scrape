@@ -1,6 +1,8 @@
 require 'pismo'
 
-url = 'http://lukethomas.com/the-textbook-industry-greed-its-getting-worse/'
+puts "What is the URL you would like to parse?"
+
+url = gets.chomp
 
 doc = Pismo::Document.new(url)
 
